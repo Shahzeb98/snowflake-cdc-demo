@@ -12,7 +12,7 @@ Demonstrate end-to-end change data capture using Snowflake.
 3. Create a CDC schema and table that will capture the changes on the source table.
 4. Create a stored procedure log table for error handling.
 5. Create a stored procedure to update the CDC table and log table.
-6. Create a warehouse for task execution and use it for task creation (Trigger -> SYSTEM$STREAM_HAS_DATA)
+6. Create a warehouse for task execution and use it in task creation (Trigger -> SYSTEM$STREAM_HAS_DATA)
 7. Optional: Create a role that has ownership and execution privileges on the task created.
 8. Test the created pipeline.
 9. Project cleanup.
