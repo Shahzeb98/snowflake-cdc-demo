@@ -52,8 +52,3 @@ After a few task fails :)
   1. Add more error handling cases in stored procedures.
   2. Extend to multiple source tables.
   3. Integrate with external staging (S3, Kafka, etc.).
-
-## Future Enhancements:
-  1. Add error handling in stored procedures.
-  2. Extend to multiple source tables.
-  3. Integrate with external staging (S3, Kafka, etc.).
